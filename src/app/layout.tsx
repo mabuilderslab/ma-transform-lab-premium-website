@@ -7,6 +7,11 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "MA Transform Lab - Human Systems Optimization & Business Transformation",
   description: "Transform your health, mindset, and business with proven systems. 750+ human systems optimized, 28+ businesses launched across 5 continents.",
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ]
+  }
 };
 
 export default function RootLayout({
